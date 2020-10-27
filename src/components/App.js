@@ -1,17 +1,24 @@
-import React from 'react';
-import Footer from './footer';
-import IntroJumbo from './intro';
-import Navbar from './navbar';
-import SkillsList from './skillsList';
+import React from "react";
+import Education from "./education";
+import Footer from "./footer";
+import IntroJumbo from "./intro";
+import Navigation from "./navbar";
+import Contact from "./contact.jsx";
+import Work from "./work";
+import SkillsList from "./skillsList";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
-    <Navbar />
-    <IntroJumbo />
-    <SkillsList />
-    <Footer />
-  </div>
+      <Navigation />
+      <IntroJumbo />
+      <SkillsList />
+      <Work />
+      <Education />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
