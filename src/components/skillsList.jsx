@@ -1,10 +1,11 @@
+import { Container } from "react-bootstrap";
 import Skill from "./skill";
-
 function SkillsList() {
   return (
-    <div>
-      <div class="container-fluid p-5" style={{ background: "#fbcffc" }}>
+    <div >
+      <section class="container-fluid" style={{margin:"10% auto"}}>
         <h1 class="text-center">My skills!</h1>
+        <Container>
         <div class="skillsList mt-5">
           <ul class="mb-0">
             <div class="row pb-5">
@@ -24,7 +25,8 @@ function SkillsList() {
             </div>
           </ul>
         </div>
-      </div>
+        </Container>
+      </section>
     </div>
   );
 }

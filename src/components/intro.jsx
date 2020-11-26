@@ -1,34 +1,36 @@
-import Ash from "./images/Ash.jpg"; // with import
+import Ash from "./images/mount.png";
+import Navigation from "./navbar";
+import Button from "react-bootstrap/Button"
 
 var background = {
-  background: "rgba(0, 0, 0, 0.5)",
-  backgroundImage: `url(${Ash})` + "rgba(0, 0, 0, 0.57)",
-  backgroundSize: "cover",
-  height: "90vh",
-  backgroundColor: "#9d65c9",
-  backgroundPosition: "center center",
-  backgroundRepeat: "no-repeat",
-  position: "relative",
-  overflow: " hidden",
+  backgroundImage: `url(${Ash})`,
+  // // backgroundSize: "cover",
+  // height: "90vh",
+  // backgroundColor: "#9d65c9",
+    minHeight: "100vh",
+    backgroundSize: "cover",
+    padding: "0rem 5rem",
+  // backgroundPosition: "center center",
+  // backgroundRepeat: "no-repeat",
+  // position: "relative",
+  // overflow: " hidden",
 };
 
 function IntroJumbo() {
   return (
-    <div class="Intro" id="Home" style={background}>
-      <div class="banner">
+    <div class="Intro" id="home" style={background}>
+<Navigation />
         <div class="container">
-          <div class="row intro-text text-light align-items-center justify-content-center">
+          <div class="row justify-content-center">
             <div class="col-md-10 text-center pt-5">
-              <h1 class="display-4 site-heading site-animate fadeInUp site-animated">
+              <h1 class="display-4 text-dark">
                 Hello!
-                <strong class="display-3 d-block">I'm Ashrith</strong>
               </h1>
-              <strong class="lead d-block text-white letter-spacing">
-                A Tech Enthusiast & Web Developer.
-              </strong>
+              <Button variant="outline-dark" class="lead d-block text-white">
+                Want to know me?
+              </Button>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );

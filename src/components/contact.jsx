@@ -26,22 +26,22 @@ function Contact() {
           noValidate
           validated={validated}
           onSubmit={handleSubmit}
-          style={{ padding: "5% 10% 5%" }}
+          style={{ padding: "5% auto 5%",width:"40%", margin:"auto"}}
         >
           <Form.Group>
             <Form.Label>Enter your Name</Form.Label>
             <Form.Row>
-              <Col sm={3}>
+              <Col>
                 <Form.Control required type="text" placeholder="First Name" />
               </Col>
-              <Col sm={3}>
+              <Col>
                 <Form.Control required type="text" placeholder="Last Name" />
               </Col>
             </Form.Row>
           </Form.Group>
           <Form.Group>
             <Form.Row>
-              <Col md={6}>
+              <Col>
                 <Form.Label>Enter your Email Adress</Form.Label>
                 <Form.Control
                   required
@@ -53,7 +53,7 @@ function Contact() {
           </Form.Group>
           <Form.Group>
             <Form.Row>
-              <Col md={6}>
+              <Col>
                 <Form.Label>Enter your Phone Number</Form.Label>
                 <Form.Control
                   required
@@ -65,7 +65,7 @@ function Contact() {
           </Form.Group>
           <Form.Group>
             <Form.Row>
-              <Col md={6}>
+              <Col>
                 <Form.Label>Message (optional)</Form.Label>
                 <Form.Control
                   as="textarea"

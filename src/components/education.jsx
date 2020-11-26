@@ -2,7 +2,7 @@ const { default: Institute } = require("./institute");
 
 function Education() {
   return (
-    <div>
+    <section id="education">
       <div class="container-fluid text-light bg-dark p-5">
         <h1 class="text-center p-5 mb-3">Education</h1>
         <Institute
@@ -22,7 +22,7 @@ function Education() {
           years="2007-2017"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
