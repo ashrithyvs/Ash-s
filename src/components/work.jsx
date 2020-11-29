@@ -15,7 +15,7 @@ const handleShow = () => setShow(true);
    <a onClick={handleShow}><Card.Img variant="top" src={props.src} /></a>
     <Card.Body>
     <a href={props.route}><Card.Title class="text-dark"><h4>{props.title}</h4></Card.Title></a>
-      <Card.Text class="lead" style={{fontSize:"70%"}}>
+      <Card.Text class="lead text-dark" style={{fontSize:"70%"}}>
         {props.desc}
       </Card.Text>
     </Card.Body>
@@ -57,7 +57,7 @@ const handleShow = () => setShow(true);
    <a onClick={handleShow}><Card.Img variant="top" src={props.src} /></a>
     <Card.Body>
     <a href={props.route}><Card.Title class="text-dark"><h4>{props.title}</h4></Card.Title></a>
-    <Card.Text class="lead" style={{fontSize:"70%"}}>
+    <Card.Text class="lead text-dark" style={{fontSize:"70%"}}>
         {props.desc}
       </Card.Text>
     </Card.Body>
@@ -99,7 +99,7 @@ const handleShow = () => setShow(true);
    <a onClick={handleShow}><Card.Img variant="top" src={props.src} /></a>
     <Card.Body>
     <a href={props.route}><Card.Title class="text-dark"><h4>{props.title}</h4></Card.Title></a>
-    <Card.Text class="lead" style={{fontSize:"70%"}}>
+    <Card.Text class="lead text-dark" style={{fontSize:"70%"}}>
         {props.desc}
       </Card.Text>
     </Card.Body>

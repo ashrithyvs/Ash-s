@@ -6,12 +6,14 @@ import Contact from "./contact.jsx";
 import SkillsList from "./skillsList";
 import WorkList from "./workList";
 import About from "./about";
+import Extras from "./extras";
 
 function App() {
   return (
-    <div>
+    <div style={{background:"#050505",fontFamily: "Montserrat, sans-serif",color:"#be9fe1"}}>
       <IntroJumbo />
       <About />
+      <Extras />
       <SkillsList />
       <WorkList />
       <Education />

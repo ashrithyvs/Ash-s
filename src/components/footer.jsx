@@ -13,17 +13,14 @@ function Footer() {
     query: '(max-device-width: 1224px)'
   })
  
-    
 
   return (
     <div class="footer-wrapper mx-auto">
-    <div>
-    </div>
-      <div class="bg-dark text-light">
+      <div>
         <span
           class="text-center font-weight-lighter"
           style={{
-            fontFamily: "Roboto, sans-serif",
+            fontFamily: "Exo, sans-serif",
             fontSize: "37px",
             letterSpacing: "7px",
             display: "block",
@@ -33,24 +30,24 @@ function Footer() {
         </span>
         {isDesktopOrLaptop && <>
           <div class="container col-2 mt-2 ">
-          <a class="mx-4" href="#">
+          <a class="mx-4" target="_blank" href="https://www.facebook.com">
             <Facebook />
           </a>
-          <a class="mx-4" href="#">
+          <a class="mx-4" target="_blank" href="https://github.com/ashrithyvs">
             <Github />
           </a>
-          <a class="mx-4" href="#">
+          <a class="mx-4" target="_blank" href="https://www.twitter.com">
             <Twitter />
           </a>
         </div>
       </>}
-      {isTabletOrMobileDevice && <div style={{margin:"auto 15%"}}> <a class="mx-4" href="#">
+      {isTabletOrMobileDevice && <div style={{margin:"auto 15%"}}> <a class="mx-4" target="_blank" href="https://www.facebook.com">
             <Facebook />
           </a>
-          <a class="mx-4" href="#">
+          <a class="mx-4" target="_blank" href="https://github.com/ashrithyvs">
             <Github />
           </a>
-          <a class="mx-4" href="#">
+          <a class="mx-4" target="_blank" href="https://www.twitter.com">
             <Twitter />
           </a></div>}
         

@@ -20,13 +20,13 @@ function IntroJumbo() {
   return (
     <div class="Intro" id="home" style={background}>
 <Navigation />
-        <div class="container">
+        <div class="container" style={{paddingTop:"8%"}}>
           <div class="row justify-content-center">
             <div class="col-md-10 text-center pt-5">
               <h1 class="display-4 text-dark">
-                Hello!
+                Hey there!
               </h1>
-              <Button variant="outline-dark" class="lead d-block text-white">
+              <Button variant="outline-dark" href="#about" class="lead d-block text-white">
                 Want to know me?
               </Button>
             </div>

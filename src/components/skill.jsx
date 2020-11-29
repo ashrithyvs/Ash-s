@@ -1,4 +1,3 @@
-import "./skill.css"
 function Skill(props) {
 
   return (
@@ -11,7 +10,7 @@ function Skill(props) {
         <div
           class="progress-bar "
           role="progressbar"
-          style={{ width: props.percent }}
+          style={{ width: props.percent,background:'#916dd5'}}
         ></div>
       </div>
     </div>
