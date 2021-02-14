@@ -3,10 +3,14 @@ import Skill from "./skill";
 function SkillsList() {
   return (
     <div>
-      <section class="container-fluid" id="skills" style={{ paddingTop: "5%" }}>
+      <section
+        class="container skillsList"
+        id="skills"
+        style={{ paddingTop: "5%" }}
+      >
         <h1 class="text-center">My skills!</h1>
         <Container>
-          <div class="skillsList mt-5 text-light">
+          <div class="mt-5 text-light">
             <ul class="mb-0">
               <div class="row pb-5">
                 <Skill name="Java" percent="70%" />

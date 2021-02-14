@@ -6,6 +6,7 @@ import SkillsList from "./skillsList";
 import WorkList from "./workList";
 import About from "./about";
 import Extras from "./extras";
+import "./App.css";
 
 function App() {
   return (

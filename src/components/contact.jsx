@@ -65,7 +65,7 @@ function Contact() {
         >
           <Form.Group>
             <Form.Label>Enter your Name</Form.Label>
-            <Form.Row className="d-flex justify-content-around">
+            <Form.Row className="form-row">
               <Col>
                 <Form.Control
                   required
